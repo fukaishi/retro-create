@@ -2,6 +2,8 @@
 
 A pixel art sprite generator for retro-style games. Generate 8-32px pixel characters with animations, ready for immediate use in your game projects.
 
+🎮 **[Live Demo](https://fukaishi.github.io/retro-create/)** | 📖 [Deployment Guide](.github/DEPLOY.md)
+
 ## Features
 
 ### 🎮 Retro Console Presets
@@ -65,6 +67,16 @@ npm run build
 ```
 
 The build output will be in the `dist/` folder.
+
+### Deploy to GitHub Pages
+
+This project is configured to automatically deploy to GitHub Pages:
+
+1. Enable GitHub Pages in **Settings** → **Pages** → Source: **GitHub Actions**
+2. Push to `main`/`master` branch or manually trigger the workflow
+3. Your site will be live at `https://[username].github.io/retro-create/`
+
+See [Deployment Guide](.github/DEPLOY.md) for detailed instructions.
 
 ## Usage
 
